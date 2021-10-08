@@ -63,8 +63,8 @@ Cons
 
 Pros
 
-    *   Interpretable (relatively).
-    *   No need to scale and normalize data (less effort in regards to preprocessing).
+    * Interpretable (relatively).
+    * No need to scale and normalize data (less effort in regards to preprocessing).
     * Performs well with imbalanced datasets.
     * Performs well with big data.
     * Outliers have less impact.
@@ -150,7 +150,7 @@ I would use a big data platform such as Apache Spark which is distributed proces
 
 Apart from Spark, these some ways to handle this problem:
 
-  * Use a computer with more memory. :)
+  * Use a computer with more memory :grinning:.
   * Work with a smaller sample.
   * Change the data format.
   * Stream data or use progressive loading.
