@@ -8,15 +8,15 @@ Two pipelines are investigated: 1) Short Pipeline and 2) Long Pipeline with diff
 
 1.   **Short Pipeline**
 
-    * Reading the dataset.
-    * Splitting the data into training data (historical data) and testing data (future data).
-    * Encoding the categorical features including the ordinal and not ordinal ones.
-    * Modelling: 
-        * Automatic tunning using Bayesian optimisation.
-        * Cross-validation to check the generalisation error.
-        * Training then evaluating the XGB classifier using different metrics. 
+   * Reading the dataset.
+   * Splitting the data into training data (historical data) and testing data (future data).
+   * Encoding the categorical features including the ordinal and not ordinal ones.
+   * Modelling: 
+      * Automatic tunning using Bayesian optimisation.
+      * Cross-validation to check the generalisation error.
+      * Training then evaluating the XGB classifier using different metrics. 
 
-    * Results Discussion.
+   * Results Discussion.
 
 2.   **Long Pipeline** 
 
