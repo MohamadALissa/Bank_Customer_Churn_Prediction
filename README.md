@@ -8,30 +8,30 @@ Two pipelines are investigated: 1) Short Pipeline and 2) Long Pipeline with diff
 
 1.   **Short Pipeline**
 
-  * Reading the dataset.
-  * Splitting the data into training data (historical data) and testing data (future data).
-  * Encoding the categorical features including the ordinal and not ordinal ones.
-  * Modelling: 
-      * Automatic tunning using Bayesian optimisation.
-      * Cross-validation to check the generalisation error.
-      * Training then evaluating the XGB classifier using different metrics. 
+    * Reading the dataset.
+    * Splitting the data into training data (historical data) and testing data (future data).
+    * Encoding the categorical features including the ordinal and not ordinal ones.
+    * Modelling: 
+        * Automatic tunning using Bayesian optimisation.
+        * Cross-validation to check the generalisation error.
+        * Training then evaluating the XGB classifier using different metrics. 
 
-  * Results Discussion
+    * Results Discussion.
 
 2.   **Long Pipeline** 
 
-  * Reading the dataset.
-  * Splitting the data into training data (historical data) and testing data (future data).
-  * Encoding the categorical features including the ordinal and not ordinal ones.
-  * Imputations.
-  * One-Hot Encoding.
-  * Analysing the dataset (Descriptive statistics, Checking the correlation).
-  * Standardisation.
-  * Modelling: 
-      * Automatic tunning using Bayesian optimisation.
-      * Cross-validation to check the generalisation error.
-      * Training then evaluating different classifiers using different metrics. 
-  * Results Discussion
+    * Reading the dataset.
+    * Splitting the data into training data (historical data) and testing data (future data).
+    * Encoding the categorical features including the ordinal and not ordinal ones.
+    * Imputations.
+    * One-Hot Encoding.
+    * Analysing the dataset (Descriptive statistics, Checking the correlation).
+    * Standardisation.
+    * Modelling: 
+        * Automatic tunning using Bayesian optimisation.
+        * Cross-validation to check the generalisation error.
+        * Training then evaluating different classifiers using different metrics. 
+    * Results Discussion.
 
 # Questions & Answers
 
@@ -47,10 +47,10 @@ To determine the best approach for this classification problem, I considered dif
 
 Pros
 
-    *   Simple algorithm
-    *   Interpretable
-    *   Less prone to over-fitting (with low-dimensional data)
-    *   Best option  when data is linearly separable
+    *   Simple algorithm.
+    *   Interpretable.
+    *   Less prone to over-fitting (with low-dimensional data).
+    *   Best option  when data is linearly separable.
 
 Cons
 
@@ -63,12 +63,12 @@ Cons
 
 Pros
 
-    *   Interpretable (relatively)
+    *   Interpretable (relatively).
     *   No need to scale and normalize data (less effort in regards to preprocessing).
-    * Performs well with imbalanced datasets
-    * Performs well with big data
-    * Outliers have less impact
-    * Can be used for feature selection since it provides the feature importance
+    * Performs well with imbalanced datasets.
+    * Performs well with big data.
+    * Outliers have less impact.
+    * Can be used for feature selection since it provides the feature importance.
 
 Cons
 
@@ -78,9 +78,9 @@ Cons
 
 Pros
 
-    * Outliers have less impact
-    * Performs well with high dimensions ( a large number of features)
-    * Very good option with binary classification and NLP applications (e.g. text classification)
+    * Outliers have less impact.
+    * Performs well with high dimensions ( a large number of features).
+    * Very good option with binary classification and NLP applications (e.g. text classification).
 
 Cons
 
@@ -91,31 +91,31 @@ Cons
 
 Pros
 
-    * Very fast (suitable for real-time prediction)
-    * Performs well with big data
+    * Very fast (suitable for real-time prediction).
+    * Performs well with big data.
     * Insensitive to irrelevant features.
-    * Performs well with high dimensions ( a large number of features)
-    * Good for multi-class prediction
+    * Performs well with high dimensions ( a large number of features).
+    * Good for multi-class prediction.
 
 Cons 
 
-    * Assumption of the features independency doesn't hold
-    *  Training data should be representative
+    * Assumption of the features independency doesn't hold.
+    *  Training data should be representative.
 
 * XGBoost
 
 Pros
 
     * No need to scale and normalize data (less effort in regards to preprocessing).
-    * Can be used for feature selection since it provides the feature importance
-    * Outliers have less impact
+    * Can be used for feature selection since it provides the feature importance.
+    * Outliers have less impact.
     * Performs well with large-sized datasets.
-    * Less prone to overfitting
-    * Best option for almost any classification problem
+    * Less prone to overfitting.
+    * Best option for almost any classification problem.
 
 Cons
 
-    * Too many hyperparameters (harder to tune)
+    * Too many hyperparameters (harder to tune).
 
 
 
@@ -150,11 +150,11 @@ I would use a big data platform such as Apache Spark which is distributed proces
 
 Apart from Spark, these some ways to handle this problem:
 
-  * Use a computer with more memory :)
-  * Work with a smaller sample
-  * Change the data format
-  * Stream data or use progressive loading
-  * Use a relational database
+  * Use a computer with more memory. :)
+  * Work with a smaller sample.
+  * Change the data format.
+  * Stream data or use progressive loading.
+  * Use a relational database.
 
 -----------------------------
 6. What other considerations would need to be taken into account if this was real customer data?
