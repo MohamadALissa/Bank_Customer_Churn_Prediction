@@ -3,7 +3,7 @@
 This project aims to predict the customers who might leave the bank based on the historical data provided.
 
 # The Work Plan
-Two pipelines are investigated: 1) Quick Pipeline and 2) Long Pipeline with different preprocessing steps.
+Two pipelines are investigated: 1) Short Pipeline and 2) Long Pipeline with different preprocessing steps.
 
 
 1.   **Short Pipeline**
