@@ -33,7 +33,7 @@ Two pipelines are investigated: 1) Short Pipeline and 2) Long Pipeline with diff
       * Training then evaluating different classifiers using different metrics. 
   * Results Discussion.
 
-# Questions & Answers
+# Questions & Answers :pencil:
 
 1.   Which machine learning models did you consider and why?
 
