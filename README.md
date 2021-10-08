@@ -20,18 +20,18 @@ Two pipelines are investigated: 1) Short Pipeline and 2) Long Pipeline with diff
 
 2.   **Long Pipeline** 
 
-    * Reading the dataset.
-    * Splitting the data into training data (historical data) and testing data (future data).
-    * Encoding the categorical features including the ordinal and not ordinal ones.
-    * Imputations.
-    * One-Hot Encoding.
-    * Analysing the dataset (Descriptive statistics, Checking the correlation).
-    * Standardisation.
-    * Modelling: 
-        * Automatic tunning using Bayesian optimisation.
-        * Cross-validation to check the generalisation error.
-        * Training then evaluating different classifiers using different metrics. 
-    * Results Discussion.
+  * Reading the dataset.
+  * Splitting the data into training data (historical data) and testing data (future data).
+  * Encoding the categorical features including the ordinal and not ordinal ones.
+  * Imputations.
+  * One-Hot Encoding.
+  * Analysing the dataset (Descriptive statistics, Checking the correlation).
+  * Standardisation.
+  * Modelling: 
+      * Automatic tunning using Bayesian optimisation.
+      * Cross-validation to check the generalisation error.
+      * Training then evaluating different classifiers using different metrics. 
+  * Results Discussion.
 
 # Questions & Answers
 
